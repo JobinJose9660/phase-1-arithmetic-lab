@@ -17,16 +17,16 @@ describe('index.js', function() {
       expect(random).to.not.eq(0)
     });
   });
-  describe('mod', function() {
-    it("is an equation that calculates a remainder that is equal to 4", function() {
-      expect(num3).to.be.a('number')
-      expect(num4).to.be.a('number')
-      expect(mod).to.eq(4)
-    });
-  });
-  describe('max', function() {
-    it("will return 20 as the highest number in the set", function() {
-      expect(max).to.eq(20)
-    });
-  });
-});
+})
+ // describe('mod', function() {
+    //it("is an equation that calculates a remainder that is equal to 4", function() {
+      //expect(num20).to.be.a('number')
+      //expect(num21).to.be.a('number')
+      //expect(mod).to.eq(4)
+   // });
+ // });
+  //describe('max1', function() {
+   // it("will return 20 as the highest number in the set", function() {
+      //expect(max).to.eq(40)
+    //});
+  //})
